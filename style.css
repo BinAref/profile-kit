@@ -19,3 +19,6 @@ body[data-stage="0"] main{justify-content:flex-end;gap:18px;width:min(100%,1000p
 
 /* Theme-aware document preview only; original downloads remain unchanged. */
 .pdf-pages canvas{filter:var(--document-filter,none)}body[data-stage='2'] .sheet{background:var(--document-bg);color:var(--document-ink)}body[data-stage='2'] .sheet h1,body[data-stage='2'] .sheet h2,body[data-stage='2'] .sheet p strong{color:var(--document-heading)}body[data-stage='2'] .sheet h2,body[data-stage='2'] .sheet .contact{border-color:var(--document-line)}@media print{.pdf-pages canvas{filter:none!important}body[data-stage='2'] .sheet{background:white;color:#172638}}
+
+/* Direction follows UI language; document direction follows its own language. */
+html[dir=rtl] .hero p,html[dir=rtl] .tile,.sheet[dir=rtl],.sheet[dir=rtl] h1,.sheet[dir=rtl] h2{letter-spacing:normal}html[dir=rtl] .settings select{text-align:start} .sheet[dir=rtl] .contact{direction:rtl;text-align:start}.sheet bdi{unicode-bidi:isolate}.sheet[dir=rtl] p,.sheet[dir=rtl] h2{text-align:start}.sheet[dir=ltr]{text-align:left}.zoom-group{direction:ltr}.pdf-pages canvas{direction:ltr}html[dir=rtl] footer .actions{direction:rtl}html[dir=rtl] footer .actions select{direction:ltr;text-align:center}
