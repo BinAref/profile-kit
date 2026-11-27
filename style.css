@@ -27,3 +27,5 @@ html[dir=rtl] .hero p,html[dir=rtl] .tile,.sheet[dir=rtl],.sheet[dir=rtl] h1,.sh
 
 /* PDF glyph positions are physical coordinates, independent of UI direction. */
 .pdf-pages,.pdf-pages canvas{direction:ltr!important;unicode-bidi:isolate;letter-spacing:normal}.sheet[lang=ar]{font-family:'Noto Sans Arabic',Tahoma,Arial,sans-serif;font-kerning:normal;letter-spacing:normal}
+
+.native-ar{direction:rtl;text-align:right;font-family:Tahoma,Arial,sans-serif!important;letter-spacing:normal!important;font-size:16px;line-height:1.75;overflow-wrap:break-word}.native-ar p{line-height:1.75}.native-ar h2{font-size:19px;letter-spacing:normal}.native-ar a{color:var(--document-heading);unicode-bidi:isolate;display:inline-block}.native-ar bdi{unicode-bidi:isolate}.native-ar .contact{font-size:13px;line-height:1.8}@media(max-width:600px){.native-ar{min-height:0;font-size:15px}.native-ar h1{font-size:26px}.native-ar h2{font-size:18px}}
