@@ -1,1 +1,2 @@
 :root{color-scheme:dark;--bg:#101216;--panel:#1b202a;--ink:#f1f5f9;--muted:#a5b4c8;--line:#333d4e;--accent:#79aaff;--accentInk:#101827;--feature:#204b94;--featureInk:#fff;--secondary:#233b60;--secondaryInk:#e4edff;--iconBg:#829cdb30}
+:root{--document-filter:invert(1) hue-rotate(180deg);--document-bg:#171b23;--document-ink:#e4eaf3;--document-heading:#a8caff;--document-line:#46556b}
