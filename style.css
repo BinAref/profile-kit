@@ -22,3 +22,5 @@ body[data-stage="0"] main{justify-content:flex-end;gap:18px;width:min(100%,1000p
 
 /* Direction follows UI language; document direction follows its own language. */
 html[dir=rtl] .hero p,html[dir=rtl] .tile,.sheet[dir=rtl],.sheet[dir=rtl] h1,.sheet[dir=rtl] h2{letter-spacing:normal}html[dir=rtl] .settings select{text-align:start} .sheet[dir=rtl] .contact{direction:rtl;text-align:start}.sheet bdi{unicode-bidi:isolate}.sheet[dir=rtl] p,.sheet[dir=rtl] h2{text-align:start}.sheet[dir=ltr]{text-align:left}.zoom-group{direction:ltr}.pdf-pages canvas{direction:ltr}html[dir=rtl] footer .actions{direction:rtl}html[dir=rtl] footer .actions select{direction:ltr;text-align:center}
+
+@media(max-width:600px){body[data-stage='2'] .paper{padding:8px;align-content:start}.pdf-pages{margin-block:0 auto;gap:10px}.pdf-pages canvas{box-shadow:none}}
