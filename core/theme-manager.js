@@ -1,0 +1,1 @@
+import registry from '../themes/registry.js';export {registry};export function apply(id){let item=registry.find(x=>x.id===id)||registry[0];let resolved=item.file?item:registry.find(x=>x.id===(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));document.getElementById('theme-css').href=resolved.file;localStorage.setItem('theme',item.id)}

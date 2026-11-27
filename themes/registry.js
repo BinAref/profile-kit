@@ -1,0 +1,1 @@
+export default [{id:'system',key:9},{id:'light',key:7,file:'themes/light.css'},{id:'dark',key:8,file:'themes/dark.css'}];

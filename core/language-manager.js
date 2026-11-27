@@ -1,0 +1,1 @@
+import registry from '../locales/registry.js';export {registry};export async function load(id){let item=registry.find(x=>x.id===id)||registry[0];return {...item,data:(await item.load()).default}}

@@ -1,0 +1,1 @@
+export default [{id:'en',label:'English',dir:'ltr',load:()=>import('./en.js')},{id:'ar',label:'العربية',dir:'rtl',load:()=>import('./ar.js')},{id:'tr',label:'Türkçe',dir:'ltr',load:()=>import('./tr.js')}];
